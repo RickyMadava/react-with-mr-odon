@@ -1,6 +1,8 @@
 import "./App.css";
 import { avatar, bell, logo, upload } from "./assets/svg";
+import HeadingOne from "./components/header/HeadingOne";
 import MainMenuBtn from "./components/navigation/MainMenuBtn";
+import MainMenuSidebarBtn from "./components/navigation/MainMenuSidebarBtn";
 function App() {
   return (
     <div className="App">
@@ -33,8 +35,18 @@ function App() {
           </div>
         </div>
       </div>
-      {/* Left sidebar section */}
-      {/* Main section */}
+      <div className="content-wrapper">
+        {/* Left sidebar section */}
+        <div className="sidebar-left">
+          <HeadingOne title="Settings" />
+          <MainMenuSidebarBtn text="Public profile" />
+          <MainMenuSidebarBtn text="Account settings" active={true} />
+          <MainMenuSidebarBtn text="Notifications" />
+          <MainMenuSidebarBtn text="Pro Account" />
+        </div>
+        {/* Main section */}
+        <div className="main-content"></div>
+      </div>
     </div>
   );
 }

@@ -15,7 +15,6 @@
 .main-menu-btn {
   font-family: 'Poppins', 'Merriweather';
   padding: 10px 15px;
-  gap: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -71,7 +70,6 @@
   justify-content: center;
   align-items: center;
   padding: 15px 40px;
-  gap: 10px;
   background: #202142;
   border-radius: 10px;
   width: 58px;
@@ -85,4 +83,45 @@
 .components-btn-filled img {
   width: 24px;
   height: 24px;
+}
+
+.content-wrapper {
+  margin-top: 85px;
+}
+.sidebar-left {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-right: 1px solid #efefff;
+  padding: 0 40px 40px 40px;
+}
+.heading-level-one {
+  font-family: 'Merriweather';
+  padding: 10px 15px 40px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+.heading-level-two {
+  font-family: 'Merriweather';
+  padding: 10px 15px 40px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+}
+.main-menu-btn-active {
+  font-family: 'Poppins', 'Merriweather';
+  padding: 10px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #202142;
+  opacity: 0.8;
+  background: #fcfcff;
+  border: 1px solid #efefff;
+  border-radius: 32px;
+  width: 137px;
 }

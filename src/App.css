@@ -32,20 +32,20 @@
 .btn-notification-c1 {
   position: absolute;
   left: 55%;
-  right: 26.78%;
-  top: 30.93%;
-  bottom: 50.85%;
+  right: 8.78%;
+  top: 22.93%;
+  bottom: 41.85%;
   border-radius: 50%;
-  background: rgba(255, 106, 149, 0.4);
+  background: rgba(255, 106, 149, 0.2);
 }
 .btn-notification-c2 {
   position: absolute;
-  left: 57.53%;
-  top: 33.53%;
+  left: 61.53%;
+  top: 28.53%;
   border-radius: 50%;
   background: #ff6a95;
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
 }
 .components {
   display: flex;

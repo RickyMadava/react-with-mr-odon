@@ -93,7 +93,7 @@
   max-width: 260px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   border-right: 1px solid #efefff;
   padding: 0 40px 40px 40px;
@@ -150,4 +150,51 @@
   font-style: bold;
   font-weight: 900;
   line-height: 27px;
+}
+.email-section {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #efefff;
+}
+.pwd-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #efefff;
+}
+.pwd-section p {
+  padding: 20px 0 20px 10px;
+}
+.delete-section {
+  padding: 20px 0 10px 0;
+}
+.delete-section a {
+  color: #f00;
+  margin-left: 10px;
+}
+.input-container input {
+  height: 40px;
+  border: 1px solid #c3c3e4;
+  border-radius: 30px;
+  width: 277px;
+  padding: 0 15px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.input-container label {
+  padding-bottom: 15px;
+}
+.input-bloc-container {
+  display: flex;
+  margin-left: 10px;
+}
+button {
+  margin-left: 10px;
+  padding: 15px 30px;
+  background: #202142;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins';
 }

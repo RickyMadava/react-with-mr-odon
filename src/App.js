@@ -55,14 +55,38 @@ function App() {
               <p>
                 Your email adress is <span>emailis@private.com</span>
               </p>
-              <button>Change</button>
+              <a href="#">Change</a>
             </div>
           </div>
           <div className="pwd-section">
             <div className="one-line">
               <HeadingThree title="Password" />
-              <button>Hide</button>
+              <a href="#">Hide</a>
             </div>
+            <div className="input-bloc-container">
+              <div className="input-container">
+                <label htmlFor="New password">New password</label>
+                <input type="password" placeholder="********" />
+              </div>
+              <div className="input-container">
+                <label htmlFor="Current password">Current password</label>
+                <input type="password" placeholder="********" />
+              </div>
+            </div>
+            <p>
+              Can’t remember your current password?{" "}
+              <a href="#">Reset your password</a>
+            </p>
+            <button>Save password</button>
+          </div>
+          <div className="delete-section">
+            <HeadingThree title="Delete account" />
+            <p>
+              Would you like to delete your account? This account contains 1388
+              posts. Deleting your account will remove all the content
+              associated with it.
+            </p>
+            <a href="#">I want to delete my account</a>
           </div>
         </div>
       </div>

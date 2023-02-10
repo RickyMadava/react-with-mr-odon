@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { avatar, bell, logo, upload } from "./assets/svg";
+import MainMenuBtn from "./components/navigation/MainMenuBtn";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Navbar section */}
+      <div className="navbar-wrapper">
+        <div className="logo">
+          <img src={logo} alt="Logo" />
+        </div>
+        <div className="main-menu">
+          <MainMenuBtn text="Free designs" />
+          <MainMenuBtn text="License" />
+          <MainMenuBtn text="Articles" />
+          <MainMenuBtn text="Contributors" />
+          <MainMenuBtn text="About" />
+        </div>
+        <div className="components">
+          <div className="components-btn-notification">
+            <img src={bell} alt="Bell icon" />
+            <div className="btn-notification">
+              <div className="btn-notification-c1"></div>
+              <div className="btn-notification-c2"></div>
+            </div>
+          </div>
+          <div className="components-avatar">
+            <img src={avatar} alt="avatar" />
+          </div>
+          <div className="components-btn-filled">
+            <img src={upload} alt="Upload file icone" />
+            Upload
+          </div>
+        </div>
+      </div>
+      {/* Left sidebar section */}
+      {/* Main section */}
     </div>
   );
 }

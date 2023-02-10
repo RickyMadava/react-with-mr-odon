@@ -87,6 +87,7 @@
 
 .content-wrapper {
   margin-top: 85px;
+  display: flex;
 }
 .sidebar-left {
   max-width: 260px;
@@ -106,10 +107,17 @@
 }
 .heading-level-two {
   font-family: 'Merriweather';
-  padding: 10px 15px 40px 15px;
+  padding: 10px 15px 30px 15px;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
+}
+.heading-level-three {
+  font-family: 'Merriweather';
+  padding: 10px 15px 20px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
 }
 .main-menu-btn-active {
   font-family: 'Poppins', 'Merriweather';
@@ -124,4 +132,22 @@
   border: 1px solid #efefff;
   border-radius: 32px;
   width: 137px;
+}
+.main-content {
+  font-family: 'Poppins';
+  width: 100%;
+  padding: 0 40px;
+}
+.main-content p {
+  padding-left: 15px;
+}
+.one-line {
+  display: flex;
+  justify-content: space-between;
+}
+.one-line span {
+  font-family: 'Poppins';
+  font-style: bold;
+  font-weight: 900;
+  line-height: 27px;
 }

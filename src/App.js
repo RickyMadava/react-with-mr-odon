@@ -1,6 +1,8 @@
 import "./App.css";
 import { avatar, bell, logo, upload } from "./assets/svg";
 import HeadingOne from "./components/header/HeadingOne";
+import HeadingThree from "./components/header/HeadingThree";
+import HeadingTwo from "./components/header/HeadingTwo";
 import MainMenuBtn from "./components/navigation/MainMenuBtn";
 import MainMenuSidebarBtn from "./components/navigation/MainMenuSidebarBtn";
 function App() {
@@ -45,7 +47,24 @@ function App() {
           <MainMenuSidebarBtn text="Pro Account" />
         </div>
         {/* Main section */}
-        <div className="main-content"></div>
+        <div className="main-content">
+          <HeadingTwo title="Account settings" />
+          <div className="email-section">
+            <HeadingThree title="Email adress" />
+            <div className="one-line">
+              <p>
+                Your email adress is <span>emailis@private.com</span>
+              </p>
+              <button>Change</button>
+            </div>
+          </div>
+          <div className="pwd-section">
+            <div className="one-line">
+              <HeadingThree title="Password" />
+              <button>Hide</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

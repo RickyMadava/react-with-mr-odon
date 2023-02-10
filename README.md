@@ -1,6 +1,7 @@
 # 🚀 Welcome to react with Mr Odon!
 
-Here we will learn how to get familiar with the famous React framework.
+Here we will learn how to get familiar with the famous React framework. We learn how to integrate Figma template in React.
+Figma's link : https://www.figma.com/file/C8eHl0gj2paL0dWwglGums/day_1388?node-id=1%3A2&t=mMw6aiu2L09EZ1i0-0
 
 👉 Good training to all !
 

@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* START Création de la transition avec Tailwind CSS */
+.theme-switch:checked {
+  @apply transition-transform transform translate-x-7 duration-500;
+}
+
+.theme-switch:checked + .theme-switch-label {
+  @apply bg-blue-300;
+}
+/* END Création de la transition avec Tailwind CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400&display=swap');
 .navbar-wrapper {
   display: flex;

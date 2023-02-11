@@ -6,7 +6,7 @@ export default function MainMenuSidebarBtn({ text, active }) {
       {active ? (
         <div className="main-menu-btn-active">{text}</div>
       ) : (
-        <div className="main-menu-btn">{text}</div>
+        <div className="main-menu-btn dark:text-slate-100">{text}</div>
       )}
     </>
   )
